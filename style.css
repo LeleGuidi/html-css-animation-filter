@@ -135,3 +135,42 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/*--------------
+    EFFETTO EX-7
+--------------*/
+
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.6) sepia(0.5);
+}
+
+/*--------------
+    EFFETTO EX-8
+--------------*/
+
+.ex-8-img {
+    transition: filter 2s, border-radius 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.7) sepia(0.5);
+    border-radius: 20px;
+}
+
+/*--------------
+    EFFETTO EX-9
+--------------*/
+
+.ex-9-img {
+    transition: filter 2s, border-radius 2s, transform 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(0.7) sepia(0.5);
+    border-radius: 20px;
+    transform: scale(1.2);
+}
