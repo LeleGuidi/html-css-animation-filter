@@ -174,3 +174,85 @@
     border-radius: 20px;
     transform: scale(1.2);
 }
+
+/*--------------
+    EFFETTO EX-10
+--------------*/
+
+.ex-10-icon {
+    animation: giro 1s infinite;
+}
+
+@keyframes giro {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/*--------------
+    EFFETTO EX-11
+--------------*/
+
+.ex-11-icon:hover {
+    animation: giro-hover 2s;
+}
+
+@keyframes giro-hover {
+    0% {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*--------------
+    EFFETTO EX-12
+--------------*/
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move-bottom 2s;
+}
+
+@keyframes move-bottom {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 50%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: move-top 2s;
+}
+
+@keyframes move-top {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+/*--------------
+    EFFETTO EX-13
+--------------*/
