@@ -67,9 +67,9 @@
     width: 60px;
     height: 20px;
 }
-/*--------------- 
+/*--------------
     EFFETTO EX-1
- --------------*/
+--------------*/
 .ex-1-square {
     transition: background-color 2s;
 }
@@ -77,9 +77,9 @@
      background-color: red;
  }
 
- /*--------------- 
+/*--------------
     EFFETTO EX-2
- --------------*/
+--------------*/
 .ex-2-square {
     transition: width 2s;
 }
@@ -88,9 +88,9 @@
     width: 100%;
 }
 
- /*--------------- 
+/*--------------
     EFFETTO EX-3
- --------------*/
+--------------*/
 
  .ex-3-square {
      transition: border-radius 1s;
@@ -99,3 +99,39 @@
  .ex-3-square:hover {
      border-radius: 50%;
  }
+
+/*--------------
+    EFFETTO EX-4
+--------------*/
+
+.ex-4-square {
+    transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/*--------------
+    EFFETTO EX-5
+--------------*/
+
+.ex-5-square {
+    transition: transform 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/*--------------
+    EFFETTO EX-6
+--------------*/
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
